@@ -1,0 +1,181 @@
+[  
+  {
+    "_id": "5d725a4a7b292f5f8ceff791",
+
+   "images":[
+    "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg",
+    "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+    "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+    ],
+    "categories":["phone", "gadget"],
+    "title":"Xiaomi Redmi Note 8 Mic",
+    "brand":"Xiaomi",
+    "model":"Redmi Note 8",
+    "problem":"Mic",
+    "price":3,
+    "currency":"USD",
+    "repairer": "5d725a1b7b292f5f8ceff790",
+    "user": "5e5e860d4dceeb3e488f3edc"
+  },
+  {
+      "_id": "5d725a4a7b292f5f8ceff789",
+
+     "images":[
+      "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+      "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+      "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+      ],
+      "categories":["phone", "gadget"],
+      "title":"Huawei Mate 30 Battery",
+      "brand":"Huawei",
+      "model":"Mate 30",
+      "problem":"Battery",
+      "price":10,
+      "currency":"USD",
+      "repairer": "5d713995b721c3bb38c1f5d0",
+      "user": "5e5e860d4dceeb3e488f3edf"
+     
+    },
+    {
+      "_id": "5d725c84c4ded7bcb480eaa0",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582265766762.jpeg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582265766765.jpeg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582265766766.jpeg"
+      ],
+      "title":"Huawei Mate 30 Battery",
+      "brand":"Huawei",
+      "model":"Mate 30",
+      "problem":"Battery",
+      "categories":["phone", "gadget"],
+      "price":10,
+      "currency":"USD",
+      "repairer": "5d725a1b7b292f5f8ceff789",
+      "user": "5c8a1d5b0190b214360dc049"
+    },
+    {
+      "_id": "5d725cb9c4ded7bcb480eaa1",
+      "title":"Samsung Note 10",
+      "brand":"Samsung",
+      "model":"Note 10",
+      "problem":"Charging",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582265766762.jpeg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582265766765.jpeg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582265766766.jpeg"
+      ],
+      "price":10,
+      "currency":"USD",
+      "categories":["phone", "gadget"],
+      "repairer": "5d725a1b7b292f5f8ceff789",
+      "user": "5c8a1d5b0190b214360dc049"
+    },
+    {
+      "_id": "5d725cd2c4ded7bcb480eaa2",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+        ],
+        "title":"Samsung S10 Screen",
+        "brand":"Samsung",
+        "model":"S10",
+        "problem":"Screen Panel",
+        "price":20,
+        "currency":"USD",
+        "categories":["phone", "gadget"],
+
+      "repairer": "5d725a1b7b292f5f8ceff789",
+      "user": "5c8a1d5b0190b214360dc049"
+    },
+    {
+      "_id": "5d725ce8c4ded7bcb480eaa3",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+        ],
+      "title":"Apple iPhone 11 Pro",
+      "brand":"Apple",
+      "model":"iPhone 11 Pro",
+      "problem":"Battery",
+      "price":5,
+      "currency":"USD",
+      "categories":["phone", "gadget"],
+
+      "repairer": "5d725a1b7b292f5f8ceff789",
+      "user": "5c8a1d5b0190b214360dc049"
+    },
+    {
+      "_id": "5d725cfec4ded7bcb480eaa4",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+        ],
+        "title":"Huawei Mate 30 Battery",
+        "brand":"Huawei",
+        "model":"Mate 30",
+        "problem":"Battery",
+        "price":10,
+        "currency":"USD",
+        "categories":["phone", "gadget"],
+
+      "repairer": "5d725a1b7b292f5f8ceff789",
+      "user": "5c8a1d5b0190b214360dc049"
+    },
+    {
+      "_id": "5d725cfec4ded7bcb480eaa5",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+        ],
+        "title":"Huawei P 40 Battery",
+        "brand":"Huawei",
+        "model":"P 40",
+        "problem":"Battery",
+        "price":40,
+        "currency":"USD",
+        "categories":["phone", "gadget"],
+
+      "repairer": "5d725a1b7b292f5f8ceff789",
+      "user": "5c8a1d5b0190b214360dc049"
+    },
+    {
+      "_id": "5d725cfec4ded7bcb480eaa6",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+        ],
+        "title":"Huawei P30 Pro Battery",
+        "brand":"Huawei",
+        "model":"P30 Pro",
+        "problem":"Battery",
+        "price":10,
+        "currency":"USD",
+        "categories":["phone", "gadget"],
+
+      "repairer": "5d713995b721c3bb38c1f5d0",
+      "user": "5e5e860d4dceeb3e488f3edf"
+    },
+    {
+      "_id": "5d725cfec4ded7bcb480eaa7",
+      "images":[
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888237.jpg",
+        "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888239.jpg"
+        ],
+        "title":"Huawei Y9s",
+        "brand":"Huawei",
+        "model":"Y9s",
+        "problem":"Battery",
+        "price":8,
+        "currency":"USD",
+        "categories":["phone", "gadget"],
+
+      "repairer": "5d713995b721c3bb38c1f5d0",
+      "user": "5e5e860d4dceeb3e488f3edf"
+    }
+  ]

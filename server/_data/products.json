@@ -1,0 +1,27 @@
+ [{
+"_id":"5d7a514b5d2c12c7449be001",
+"user": "5e5e860d4dceeb3e488f3edc",
+"images":[
+    "https://cellgeeks-backend.herokuapp.com/solutions/solImage-1582264888235.jpg"
+],
+"price":30,
+"description":"This is an immaculate device",
+  "memory": {
+    "ram": "12GB",
+    "rom":"512GB"
+  },
+"currency":"usd",
+"quantity":1,  
+"publish":true,
+"condition":{
+ "refurbished":false,
+    "locked":false
+},        
+    
+"accessories":{
+        "charger":true,
+        "handsfree":true,
+        "box":true
+},
+"warrenty":true
+}]
