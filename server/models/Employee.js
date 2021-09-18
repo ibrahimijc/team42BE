@@ -3,6 +3,11 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const EmployeeSchema = new mongoose.Schema({
+  
+  employeeId:{
+    type : String
+  },
+
   firstName: {
     type: String,
     required: true,
@@ -94,6 +99,7 @@ EmployeeSchema.pre("save", async function (next) {
   if (employee.isModified("password")) {
     employee.password = await bcrypt.hash(employee.password, 8);
   }
+
   next();
 });
 
