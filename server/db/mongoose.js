@@ -4,7 +4,7 @@ mongoose.set("useCreateIndex", true);
 dotenv.config();
 
 mongoose
-  .connect(process.env.mongoURL, {
+  .connect(process.env.DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
