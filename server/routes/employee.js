@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {  Employee } = require("../models/Employee");
+const Employee = require("../models/Employee");
 const { authCustomer } = require("../middlewear/Auth");
 
 router.get("/employee/test", function (req, res) {

@@ -5,7 +5,7 @@
     "firstName": "Ali",
     "lastName": "Anwar",
     "email": "ali.anwar33@gmail.com",
-    "mobile": "+923216268883",
+    "phone":"+923216268883",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "secretToken": "",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
@@ -18,6 +18,7 @@
     "lastName": "Anwar",
     "email": "arslan@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -29,6 +30,7 @@
     "lastName": "Qureshi",
     "email": "ayaz@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -40,6 +42,7 @@
     "lastName": "Qureshi",
     "email": "waqas@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -51,6 +54,7 @@
     "lastName": "Doe",
     "email": "john@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -62,6 +66,7 @@
     "lastName": "wick",
     "email": "wick@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -73,6 +78,7 @@
     "lastName": "cena",
     "email": "cena@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -84,6 +90,7 @@
     "lastName": "Padesta",
     "email": "padesta@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -95,6 +102,7 @@
     "lastName": "Woods",
     "email": "woods@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -106,6 +114,7 @@
     "lastName": "Pence",
     "email": "pence@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -117,6 +126,7 @@
     "lastName": "William",
     "email": "mark@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -128,6 +138,7 @@
     "lastName": "John",
     "email": "william@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -140,6 +151,7 @@
     "lastName": "Biden",
     "email": "joe@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -151,6 +163,7 @@
     "lastName": "Pomeo",
     "email": "pomeo@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -162,6 +175,7 @@
     "lastName": "Travesy",
     "email": "brad@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -173,6 +187,7 @@
     "lastName": "Todero",
     "email": "todero@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -184,6 +199,7 @@
     "lastName": "Michel",
     "email": "michel@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -195,6 +211,7 @@
     "lastName": "Roe",
     "email": "roe@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -206,6 +223,7 @@
     "lastName": "Michel",
     "email": "johny@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -217,6 +235,7 @@
     "lastName": "Herbert",
     "email": "herbert@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -228,6 +247,7 @@
     "lastName": "Biden",
     "email": "himwing@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -239,6 +259,7 @@
     "lastName": "Abraham",
     "email": "abraham@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -250,6 +271,7 @@
     "lastName": "Lincolin",
     "email": "lincolin@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -261,6 +283,7 @@
     "lastName": "Qureshi",
     "email": "faisal@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -272,6 +295,7 @@
     "lastName": "Swati",
     "email": "azam@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -283,6 +307,7 @@
     "lastName": "Saeed",
     "email": "humayun@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -294,6 +319,7 @@
     "lastName": "Taimor",
     "email": "danish@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -305,6 +331,7 @@
     "lastName": "Brian",
     "email": "brian@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -316,6 +343,7 @@
     "lastName": "Steven",
     "email": "steven@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -327,6 +355,7 @@
     "lastName": "William",
     "email": "george@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -338,6 +367,7 @@
     "lastName": "Christopher",
     "email": "christopher@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -349,6 +379,7 @@
     "lastName": "Charles",
     "email": "joseph@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -360,6 +391,7 @@
     "lastName": "Charles",
     "email": "charles@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -371,6 +403,7 @@
     "lastName": "Jeff",
     "email": "jeff@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -382,6 +415,7 @@
     "lastName": "Jason",
     "email": "jason@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -393,6 +427,7 @@
     "lastName": "William",
     "email": "thomas@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -404,6 +439,7 @@
     "lastName": "Trump",
     "email": "donald@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -415,6 +451,7 @@
     "lastName": "Walker",
     "email": "walker@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -426,6 +463,7 @@
     "lastName": "John",
     "email": "daniel@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -437,6 +475,7 @@
     "lastName": "Pence",
     "email": "charlotte@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -448,6 +487,7 @@
     "lastName": "Pelosi",
     "email": "nancy@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -459,6 +499,7 @@
     "lastName": "Pence",
     "email": "karen@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -470,6 +511,7 @@
     "lastName": "Guilinani",
     "email": "rudy@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -481,6 +523,7 @@
     "lastName": "Richard",
     "email": "richard@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -492,6 +535,7 @@
     "lastName": "Pompeo",
     "email": "pompeo@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -503,6 +547,7 @@
     "lastName": "Akram",
     "email": "wasim@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -514,6 +559,7 @@
     "lastName": "Azam",
     "email": "baber@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -525,6 +571,7 @@
     "lastName": "Koli",
     "email": "virat@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -536,6 +583,7 @@
     "lastName": "Sharma",
     "email": "rohit@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -547,6 +595,7 @@
     "lastName": "Anwar",
     "email": "saeed@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -558,6 +607,7 @@
     "lastName": "Ali",
     "email": "asif@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -569,6 +619,7 @@
     "lastName": "Rabbani",
     "email": "faiz@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -580,6 +631,7 @@
     "lastName": "Mir",
     "email": "hamid@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -591,6 +643,7 @@
     "lastName": "Liaqat",
     "email": "amir@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -602,6 +655,7 @@
     "lastName": "Riaz",
     "email": "wahab@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -613,6 +667,7 @@
     "lastName": "Aslam",
     "email": "atif@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -624,6 +679,7 @@
     "lastName": "Mustafa",
     "email": "mustafa@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -635,6 +691,7 @@
     "lastName": "Nabeel",
     "email": "nabeel@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -646,6 +703,7 @@
     "lastName": "Khan",
     "email": "salman@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -657,6 +715,7 @@
     "lastName": "Schawzmir",
     "email": "maximillian@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"
@@ -668,6 +727,7 @@
     "lastName": "Colman",
     "email": "rohny@test.com",
     "secretToken": "",
+    "phone":"12345678",
     "mobileVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "emailVerifiedAt": "2020-03-05T19:26:16.249+00:00",
     "password": "$2a$10$6.R4M.5KN3.OsgsHrMlrF.CJeSD4KI6uCAn5G7Y/VwHCftgkWy/3a"

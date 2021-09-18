@@ -100,4 +100,4 @@ EmployeeSchema.pre("save", async function (next) {
 
 
 const Employee = mongoose.model("Employee", EmployeeSchema);
-module.exports = { Employee: Employee};
+module.exports = Employee;
