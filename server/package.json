@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "db": "E:/ProgramFiles/mongodb4.2.2/bin/mongod  --dbpath=E:/ProgramFiles/mongodb-data",
-    "seed": "node seed/seeder -d"
+    "seed": "node seed/seeder -i"
   },
   "keywords": [],
   "author": "Ibrahim, Qasim and Ali",

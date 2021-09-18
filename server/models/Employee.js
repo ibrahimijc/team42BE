@@ -3,34 +3,25 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const EmployeeSchema = new mongoose.Schema({
-  authy_id: {
-    type: String,
-    default: null,
-  },
-
-  Name: {
+  firstName: {
     type: String,
     required: true,
   },
 
-  Phone: {
+  phone: {
     type: String,
     required: true,
-    unique: true,
   },
 
-  CountryCode: {
-    type: String,
-  },
-
-  Verified: {
+  available: {
     type: Boolean,
     default: false,
   },
 
-  Email: {
+  email: {
     type: String,
     required: true,
+    unique: true,
 
     validate(value) {
       // Regex Expression for valid Email
@@ -45,11 +36,12 @@ const EmployeeSchema = new mongoose.Schema({
     },
   },
 
-  Password: {
+  password: {
     type: String,
     required: true,
     minlength: 7,
   },
+
   tokens: [
     {
       token: {
@@ -76,8 +68,8 @@ EmployeeSchema.methods.generateAuthToken = async function () {
   }
 };
 
-EmployeeSchema.statics.findByCredentials = async function (phone, password) {
-  const employee = await Employee.findOne({ Phone: phone });
+EmployeeSchema.statics.findByCredentials = async function (email, password) {
+  const employee = await Employee.findOne({ email });
   if (!employee) {
     throw Error({
       message: "unable to login",
@@ -85,7 +77,7 @@ EmployeeSchema.statics.findByCredentials = async function (phone, password) {
     });
   }
 
-  const isMatch = await bcrypt.compare(password, employee.Password);
+  const isMatch = await bcrypt.compare(password, employee.password);
   if (!isMatch) {
     throw Error({
       message: "unable to login",
@@ -99,8 +91,8 @@ EmployeeSchema.statics.findByCredentials = async function (phone, password) {
 //  runs before saving the user to store password as a hash in db
 EmployeeSchema.pre("save", async function (next) {
   const employee = this;
-  if (employee.isModified("Password")) {
-    employee.Password = await bcrypt.hash(employee.Password, 8);
+  if (employee.isModified("password")) {
+    employee.password = await bcrypt.hash(employee.password, 8);
   }
   next();
 });
