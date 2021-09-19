@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const { Schema, SchemaType } = require("mongoose");
 
 const EmployeeSchema = new mongoose.Schema({
   
@@ -21,6 +22,13 @@ const EmployeeSchema = new mongoose.Schema({
   available: {
     type: Boolean,
     default: false,
+  },
+
+  previousMeetings:[
+  ],
+
+  teamId:{
+    type : String
   },
 
   email: {
@@ -62,7 +70,7 @@ EmployeeSchema.methods.generateAuthToken = async function () {
     const employee = this;
     const token = jwt.sign(
       { _id: employee._id.toString() },
-      process.env.secret
+      process.env.SECRET
     );
     employee.tokens = employee.tokens.concat({ token });
     await employee.save();
@@ -102,8 +110,6 @@ EmployeeSchema.pre("save", async function (next) {
 
   next();
 });
-
-
 
 const Employee = mongoose.model("Employee", EmployeeSchema);
 module.exports = Employee;

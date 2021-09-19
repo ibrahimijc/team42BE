@@ -1,28 +1,24 @@
 const jwt = require('jsonwebtoken');
-const Models = require('../models/Employee');
-const { Customer } = Models;
+const Employee = require('../models/Employee');
 
-const authCustomer = async function (req, res, next) {
+const authenticateEmployee = async function (req, res, next) {
 
     try {
         const token = req.header('Authorization').replace('Bearer ', '');
         const decode = await jwt.verify(token, process.env.secret);
 
-        const customer = await Customer.findOne({ _id: decode._id, 'tokens.token': token});
-        if (!customer) {
+        const employee = await Employee.findOne({ _id: decode._id, 'tokens.token': token});
+        if (!employee) {
             throw new Error();
         }
 
         req.token = token;
-        req.customer = customer;
+        req.employee = employee;
         next();
     } catch (e) {
         res.status(401).send({ error: 'please authenticate' });
     }
 }
 
-const authRider = async function (req, res, next) {
-    next()
-}
 
-module.exports = { authCustomer, authRider };
+module.exports = { authenticateEmployee };

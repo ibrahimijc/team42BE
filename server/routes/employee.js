@@ -1,7 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const Employee = require("../models/Employee");
-const { authCustomer } = require("../middlewear/Auth");
+const {  authenticateEmployee } = require("../middlewear/Auth");
+const Teams = require("../models/Team");
+const e = require("express");
+const Questions = require("../models/Questions");
 
 router.get("/employee/test", function (req, res) {
   res.status(200).send("Working");
@@ -47,14 +50,14 @@ router.post("/employee/register", async (req, res) => {
   }
 });
 
-router.patch("/customer/password", authCustomer, async (req, res) => {
+router.patch("/employee/password", authenticateEmployee, async (req, res) => {
   const newPassword = req.body.newPassword;
   const phone = req.body.Phone;
   try {
     const employee = await Employee.findOne({  phone });
 
     if (!employee) {
-      res.status(400).send({ success: false, message: "Customer not registered with this number" });
+      res.status(400).send({ success: false, message: "Employee not registered with this number" });
     }
 
     employee.Password = newPassword;
@@ -68,5 +71,81 @@ router.patch("/customer/password", authCustomer, async (req, res) => {
     });
   }
 });
+
+router.get("/employee/meeting-details", authenticateEmployee , async(req,res) => {
+  try {
+
+    let  employee = req.employee;
+    const excludedIds = [...employee.previousMeetings, employee.employeeId]
+   
+   let employeeQuestions = await Questions.aggregate([
+      {
+        $match:{
+          employeeId:employee.employeeId
+        }
+      },
+      {
+        $group: {
+          _id: "$employeeId",
+          "questions": {
+            $push: "$questionText"
+          }
+        }
+      },
+      {
+        $project:{
+          _id:0
+        }
+      }
+   ]);
+
+   let result = await Employee.aggregate([
+      {
+        "$match": {
+          // employeeId must not equal to self plus previous
+          "employeeId": {
+            $nin: excludedIds
+          },
+          // team id not equal to self
+          "teamId": {
+            $ne: employee.teamId
+          },        
+        }
+      },
+      // To select one person randomly
+      {
+        "$sample": {
+          "size": 1
+        }
+      },
+      // Find the team person is associated with
+      {
+        $lookup: {
+          from: "teams",
+          localField: "teamId",
+          foreignField: "teamId",
+          as: "teams",          
+        },        
+      },
+      {
+        "$project": {
+             _id: 0,
+            "employeeName": "$firstName",
+            "email": "$email",
+            "TeamName": "$teams.teamName",
+        }
+      }
+    ]);
+
+
+    const meetingLink = "https://meet.google.com/abc-xyz-dummy"; // somehow generate link..
+    res.status(200).send({
+      PeerInfo : result[0] , meetingLink, questions : employeeQuestions[0].questions
+    });
+
+  }catch(e){
+    res.status(500).send({message:"Internal Server Error"});
+  }
+})
 
 module.exports = router;

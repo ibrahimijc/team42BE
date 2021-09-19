@@ -1,66 +1,66 @@
 [
     {
-      "teamId": 10,
+      "teamId": "10",
       "teamName": "PHOLIO"
     },
     {
-      "teamId": 20,
+      "teamId": "20",
       "teamName": "INTRADISK"
     },
     {
-      "teamId": 30,
+      "teamId": "30",
       "teamName": "CEDWARD"
     },
     {
-      "teamId": 40,
+      "teamId": "40",
       "teamName": "MOREGANIC"
     },
     {
-      "teamId": 50,
+      "teamId": "50",
       "teamName": "MYOPIUM"
     },
     {
-      "teamId": 60,
+      "teamId": "60",
       "teamName": "PURIA"
     },
     {
-      "teamId": 70,
+      "teamId": "70",
       "teamName": "PARLEYNET"
     },
     {
-      "teamId": 80,
+      "teamId": "80",
       "teamName": "MINGA"
     },
     {
-      "teamId": 90,
+      "teamId": "90",
       "teamName": "HANDSHAKE"
     },
     {
-      "teamId": 100,
+      "teamId": "100",
       "teamName": "ISOSPHERE"
     },
     {
-      "teamId": 110,
+      "teamId": "110",
       "teamName": "SIGNIDYNE"
     },
     {
-      "teamId": 120,
+      "teamId": "120",
       "teamName": "ADORNICA"
     },
     {
-      "teamId": 130,
+      "teamId": "130",
       "teamName": "DATACATOR"
     },
     {
-      "teamId": 140,
+      "teamId": "140",
       "teamName": "XOGGLE"
     },
     {
-      "teamId": 150,
+      "teamId": "150",
       "teamName": "COMTRACT"
     },
     {
-      "teamId": 160,
+      "teamId": "160",
       "teamName": "SOLAREN"
     }
   ]
