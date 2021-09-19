@@ -1,0 +1,7 @@
+
+### GET list of employees
+POST http://localhost:3000/employee/login
+{
+    "":
+
+}

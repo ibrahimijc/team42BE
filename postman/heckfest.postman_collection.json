@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "4d00d43e-de53-4628-b31e-9420106d0ea4",
+		"name": "heckfest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register Employee",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if (pm.response.code === 201){\r",
+							"    pm.environment.set('authToken',pm.response.json().token)\r",
+							"}\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ijcc12s4d23@12r3.com\",\r\n    \"password\":\"12345jjk124jkv\",\r\n    \"phone\":\"5555\",\r\n    \"firstName\":\"Uz124air\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employee/register",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employee",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Employee",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if (pm.response.code === 200){\r",
+							"    pm.environment.set('authToken',pm.response.json().token)\r",
+							"}\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ijcc12s4d23@12r3.com\",\r\n    \"password\":\"12345jjk124jkv\",\r\n    \"phone\":\"5555\",\r\n    \"firstName\":\"Uz124air\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employee/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employee",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Meeting Details",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employee/meeting-details",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employee",
+						"meeting-details"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

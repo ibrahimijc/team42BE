@@ -1,0 +1,222 @@
+[
+  {
+    "employeeId": "1",
+    "available": false,
+    "firstName": "Chasity Santana",
+    "lastName": "Conley",
+    "email": "chasityconley@xleen.com",
+    "phone": "+1966)489-2488",
+    "password": "874)5543024",
+    "teamId": "110"
+  },
+  {
+    "employeeId": "2",
+    "available": true,
+    "firstName": "Alford Webster",
+    "lastName": "Torres",
+    "email": "alfordtorres@xleen.com",
+    "phone": "+1949)460-3734",
+    "password": "932)5102120",
+    "teamId": "110"
+  },
+  {
+    "employeeId": "3",
+    "available": false,
+    "firstName": "Jocelyn Tate",
+    "lastName": "Bauer",
+    "email": "jocelynbauer@xleen.com",
+    "phone": "+1932)547-3357",
+    "password": "946)4883447",
+    "teamId": "90"
+  },
+  {
+    "employeeId": "4",
+    "available": true,
+    "firstName": "Buckley Daniel",
+    "lastName": "Gross",
+    "email": "buckleygross@xleen.com",
+    "phone": "+1940)506-2640",
+    "password": "974)5463336",
+    "teamId": "110"
+  },
+  {
+    "employeeId": "5",
+    "available": true,
+    "firstName": "Goldie Harrison",
+    "lastName": "Burns",
+    "email": "goldieburns@xleen.com",
+    "phone": "+1819)436-3513",
+    "password": "885)4683455",
+    "teamId": "140"
+  },
+  {
+    "employeeId": "6",
+    "available": false,
+    "firstName": "Clarissa Middleton",
+    "lastName": "Lloyd",
+    "email": "clarissalloyd@xleen.com",
+    "phone": "+1911)412-3663",
+    "password": "981)4083380",
+    "teamId": "90"
+  },
+  {
+    "employeeId": "7",
+    "available": false,
+    "firstName": "Nelda Hall",
+    "lastName": "Wall",
+    "email": "neldawall@xleen.com",
+    "phone": "+1863)432-2592",
+    "password": "817)4322612",
+    "teamId": "90"
+  },
+  {
+    "employeeId": "8",
+    "available": true,
+    "firstName": "Tracie Griffin",
+    "lastName": "Kennedy",
+    "email": "traciekennedy@xleen.com",
+    "phone": "+1973)502-3890",
+    "password": "889)5542584",
+    "teamId": "20"
+  },
+  {
+    "employeeId": "9",
+    "available": false,
+    "firstName": "Weber Zamora",
+    "lastName": "Dudley",
+    "email": "weberdudley@xleen.com",
+    "phone": "+1911)468-3512",
+    "password": "848)4372784",
+    "teamId": "70"
+  },
+  {
+    "employeeId": "10",
+    "available": false,
+    "firstName": "Miriam Gibbs",
+    "lastName": "Lester",
+    "email": "miriamlester@xleen.com",
+    "phone": "+1872)477-3874",
+    "password": "937)5552021",
+    "teamId": "50"
+  },
+  {
+    "employeeId": "11",
+    "available": false,
+    "firstName": "Melba Guerra",
+    "lastName": "Tran",
+    "email": "melbatran@xleen.com",
+    "phone": "+1951)508-3758",
+    "password": "979)5162354",
+    "teamId": "120"
+  },
+  {
+    "employeeId": "12",
+    "available": false,
+    "firstName": "Marva Goodwin",
+    "lastName": "Collins",
+    "email": "marvacollins@xleen.com",
+    "phone": "+1873)400-3020",
+    "password": "800)5693247",
+    "teamId": "90"
+  },
+  {
+    "employeeId": "13",
+    "available": true,
+    "firstName": "Hayes Marsh",
+    "lastName": "Watson",
+    "email": "hayeswatson@xleen.com",
+    "phone": "+1908)514-2273",
+    "password": "898)4592342",
+    "teamId": "10"
+  },
+  {
+    "employeeId": "14",
+    "available": false,
+    "firstName": "Morgan King",
+    "lastName": "Bolton",
+    "email": "morganbolton@xleen.com",
+    "phone": "+1938)518-3343",
+    "password": "990)6002289",
+    "teamId": "20"
+  },
+  {
+    "employeeId": "15",
+    "available": false,
+    "firstName": "Raymond Williamson",
+    "lastName": "Wilkinson",
+    "email": "raymondwilkinson@xleen.com",
+    "phone": "+1937)410-2492",
+    "password": "956)4953306",
+    "teamId": "140"
+  },
+  {
+    "employeeId": "16",
+    "available": false,
+    "firstName": "Jana Zimmerman",
+    "lastName": "Greene",
+    "email": "janagreene@xleen.com",
+    "phone": "+1888)537-2804",
+    "password": "897)4513588",
+    "teamId": "40"
+  },
+  {
+    "employeeId": "17",
+    "available": false,
+    "firstName": "Lilly Whitehead",
+    "lastName": "Garrison",
+    "email": "lillygarrison@xleen.com",
+    "phone": "+1830)490-3219",
+    "password": "966)4512519",
+    "teamId": "130"
+  },
+  {
+    "employeeId": "18",
+    "available": true,
+    "firstName": "Cathryn Jones",
+    "lastName": "Mckinney",
+    "email": "cathrynmckinney@xleen.com",
+    "phone": "+1803)437-3002",
+    "password": "907)4793627",
+    "teamId": "60"
+  },
+  {
+    "employeeId": "19",
+    "available": false,
+    "firstName": "Gentry Fowler",
+    "lastName": "Summers",
+    "email": "gentrysummers@xleen.com",
+    "phone": "+1895)562-3201",
+    "password": "827)5812389",
+    "teamId": "120"
+  },
+  {
+    "employeeId": "20",
+    "available": true,
+    "firstName": "Darcy Knight",
+    "lastName": "Branch",
+    "email": "darcybranch@xleen.com",
+    "phone": "+1854)428-3831",
+    "password": "962)5973305",
+    "teamId": "90"
+  },
+  {
+    "employeeId": "21",
+    "available": false,
+    "firstName": "Andrews Hendricks",
+    "lastName": "Oliver",
+    "email": "andrewsoliver@xleen.com",
+    "phone": "+1929)464-3299",
+    "password": "887)4453696",
+    "teamId": "70"
+  },
+  {
+    "employeeId": "22",
+    "available": false,
+    "firstName": "Angie Mckenzie",
+    "lastName": "Le",
+    "email": "angiele@xleen.com",
+    "phone": "+1827)428-3172",
+    "password": "943)4132784",
+    "teamId": "90"
+  }
+]

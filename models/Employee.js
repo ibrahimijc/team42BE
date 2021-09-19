@@ -1,36 +1,40 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const { Schema, SchemaType } = require("mongoose");
 
 const EmployeeSchema = new mongoose.Schema({
-  authy_id: {
-    type: String,
-    default: null,
+  
+  employeeId:{
+    type : String
   },
 
-  Name: {
+  firstName: {
+    type: String,
+    required: true,
+  },
+
+  phone: {
     type: String,
     required: true,
   },
 
-  Phone: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-
-  CountryCode: {
-    type: String,
-  },
-
-  Verified: {
+  available: {
     type: Boolean,
     default: false,
   },
 
-  Email: {
+  previousMeetings:[
+  ],
+
+  teamId:{
+    type : String
+  },
+
+  email: {
     type: String,
     required: true,
+    unique: true,
 
     validate(value) {
       // Regex Expression for valid Email
@@ -45,11 +49,12 @@ const EmployeeSchema = new mongoose.Schema({
     },
   },
 
-  Password: {
+  password: {
     type: String,
     required: true,
     minlength: 7,
   },
+
   tokens: [
     {
       token: {
@@ -65,7 +70,7 @@ EmployeeSchema.methods.generateAuthToken = async function () {
     const employee = this;
     const token = jwt.sign(
       { _id: employee._id.toString() },
-      process.env.secret
+      process.env.SECRET
     );
     employee.tokens = employee.tokens.concat({ token });
     await employee.save();
@@ -76,8 +81,8 @@ EmployeeSchema.methods.generateAuthToken = async function () {
   }
 };
 
-EmployeeSchema.statics.findByCredentials = async function (phone, password) {
-  const employee = await Employee.findOne({ Phone: phone });
+EmployeeSchema.statics.findByCredentials = async function (email, password) {
+  const employee = await Employee.findOne({ email });
   if (!employee) {
     throw Error({
       message: "unable to login",
@@ -85,7 +90,7 @@ EmployeeSchema.statics.findByCredentials = async function (phone, password) {
     });
   }
 
-  const isMatch = await bcrypt.compare(password, employee.Password);
+  const isMatch = await bcrypt.compare(password, employee.password);
   if (!isMatch) {
     throw Error({
       message: "unable to login",
@@ -99,13 +104,12 @@ EmployeeSchema.statics.findByCredentials = async function (phone, password) {
 //  runs before saving the user to store password as a hash in db
 EmployeeSchema.pre("save", async function (next) {
   const employee = this;
-  if (employee.isModified("Password")) {
-    employee.Password = await bcrypt.hash(employee.Password, 8);
+  if (employee.isModified("password")) {
+    employee.password = await bcrypt.hash(employee.password, 8);
   }
+
   next();
 });
 
-
-
 const Employee = mongoose.model("Employee", EmployeeSchema);
-module.exports = { Employee: Employee};
+module.exports = Employee;
