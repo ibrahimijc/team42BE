@@ -5,7 +5,7 @@ const authenticateEmployee = async function (req, res, next) {
 
     try {
         const token = req.header('Authorization').replace('Bearer ', '');
-        const decode = await jwt.verify(token, process.env.secret);
+        const decode = await jwt.verify(token, process.env.SECRET);
 
         const employee = await Employee.findOne({ _id: decode._id, 'tokens.token': token});
         if (!employee) {
